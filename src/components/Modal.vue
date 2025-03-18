@@ -12,7 +12,7 @@
 <script lang="ts" setup>
 
 const emits = defineEmits<{onClose: []}>()
-defineProps<{ isOpen; boolean }>()
+defineProps<{ isOpen: boolean }>()
 
 </script>
 <style scoped>
